@@ -1,19 +1,18 @@
 "use client";
 
-import { FaGithub, FaLinkedin, FaXTwitter, FaRegEnvelope } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa6";
 import { FiDownload, FiMail } from "react-icons/fi";
 import { Button } from "@/components/ui/Button";
 import { ProfileImage } from "@/components/ui/ProfileImage";
 import { useTypewriter } from "@/hooks/useTypewriter";
 import { socials } from "@/data/socials";
 
-const roles = ["Software Engineer", "Full Stack Developer", "Backend Engineer"];
+const roles = ["Software Engineer", "Full Stack Developer", "AI/ML Enthusiast"];
 
 const socialLinks = [
   { icon: FaGithub, href: socials.github, label: "GitHub" },
   { icon: FaLinkedin, href: socials.linkedin, label: "LinkedIn" },
   { icon: FaRegEnvelope, href: `mailto:${socials.email}`, label: "Email" },
-  { icon: FaXTwitter, href: socials.x, label: "X" },
 ];
 
 export function About() {
@@ -35,12 +34,13 @@ export function About() {
         </p>
 
         <p className="mt-6 max-w-xl text-muted-foreground">
-          I&apos;m a Computer Science Engineer passionate about developing
-          high-performance, scalable web applications using{" "}
+          I&apos;m an Artificial Intelligence &amp; Machine Learning engineering
+          student building high-performance backend systems and AI-driven
+          applications with{" "}
           <span className="font-semibold text-foreground">
-            Java, Spring Boot, React, and Node.js
+            Java, Python, FastAPI, Spring Boot, and React
           </span>
-          . I constantly improve my skills by building real projects,
+          . I constantly sharpen my skills by shipping real projects,
           experimenting with new tools, and solving real-world development
           challenges.
         </p>

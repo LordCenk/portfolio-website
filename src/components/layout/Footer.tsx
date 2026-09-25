@@ -1,11 +1,10 @@
-import { FaGithub, FaLinkedin, FaXTwitter, FaRegEnvelope } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa6";
 import { socials } from "@/data/socials";
 
 const links = [
   { icon: FaGithub, href: socials.github, label: "GitHub" },
   { icon: FaLinkedin, href: socials.linkedin, label: "LinkedIn" },
   { icon: FaRegEnvelope, href: `mailto:${socials.email}`, label: "Email" },
-  { icon: FaXTwitter, href: socials.x, label: "X" },
 ];
 
 export function Footer() {

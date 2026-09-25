@@ -6,10 +6,11 @@ export type Certificate = {
   verifyUrl?: string;
 };
 
-// TODO: two of these titles were unreadable at the resolution the images were
-// sent at (Google/Coursera course name, and the Nov–Dec 2023 100-hour
-// "Certificate of Achievement" issuer) — confirm exact wording, and drop the
-// real certificate image files into public/images/certificates/.
+// TODO: the real certificate image files (even blurry) still need to be sent
+// one at a time — a batch of 5 images pasted in one message doesn't reach
+// this sandbox as files, only single-image messages do (confirmed by
+// testing). Once received, drop them into public/images/certificates/
+// replacing the placeholder SVGs below, same filenames.
 export const certificates: Certificate[] = [
   {
     title: "Data Analytics Job Simulation",
@@ -18,13 +19,13 @@ export const certificates: Certificate[] = [
     image: "/images/certificates/deloitte-data-analytics.svg",
   },
   {
-    title: "Google – Coursera Certificate", // TODO: confirm exact course name
+    title: "Foundations of Cybersecurity", // confirmed via resume: "Coursera: Foundations of CyberSecurity"
     issuer: "Google / Coursera",
     date: "2023",
     image: "/images/certificates/google-coursera.svg",
   },
   {
-    title: "Certificate of Achievement", // TODO: confirm training/bootcamp name and issuer
+    title: "Full Stack Web Developer", // best match from resume's certificate list — confirm this is the right one
     issuer: "Training Program",
     date: "Nov 22 – Dec 26, 2023 (100 hours)",
     image: "/images/certificates/training-achievement.svg",
