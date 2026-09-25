@@ -6,9 +6,9 @@ export type Certificate = {
   verifyUrl?: string;
 };
 
-// TODO: 3 of these 5 are still placeholder SVGs (NPTEL and Google/Coursera
-// are now the real certificates). Send the rest one at a time — a batch of
-// images in one message doesn't reach this sandbox as files, only
+// TODO: 2 of these 5 are still placeholder SVGs (Full Stack Web Developer
+// training cert, and Snowflake Platform). Send them one at a time — a batch
+// of images in one message doesn't reach this sandbox as files, only
 // single-image messages do — and they'll get dropped into
 // public/images/certificates/.
 export const certificates: Certificate[] = [
@@ -16,7 +16,7 @@ export const certificates: Certificate[] = [
     title: "Data Analytics Job Simulation",
     issuer: "Deloitte (via Forage)",
     date: "June 2025",
-    image: "/images/certificates/deloitte-data-analytics.svg",
+    image: "/images/certificates/deloitte-data-analytics.jpg",
   },
   {
     title: "Foundations of Cybersecurity",
