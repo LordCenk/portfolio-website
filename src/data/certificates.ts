@@ -51,4 +51,11 @@ export const certificates: Certificate[] = [
     image: "/images/certificates/udemy-dsa-python.jpg",
     verifyUrl: "https://ude.my/UC-1b45b29d-0214-4aed-8fc0-e19dc1402ac0",
   },
+  {
+    title: "The Complete Python Bootcamp: From Zero to Hero in Python",
+    issuer: "Udemy",
+    date: "Dec 2023",
+    image: "/images/certificates/udemy-python-bootcamp.jpg",
+    verifyUrl: "https://ude.my/UC-558275c7-10cf-448f-b2e3-58493e1d2049",
+  },
 ];
