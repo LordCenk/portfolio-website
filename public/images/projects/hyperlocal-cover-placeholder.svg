@@ -1,0 +1,32 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#052e2b" />
+      <stop offset="55%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="title2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f87171" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg2)" />
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <path d="M0 112.5 H1200 M0 225 H1200 M0 337.5 H1200 M0 450 H1200 M0 562.5 H1200" />
+    <path d="M150 0 V675 M300 0 V675 M450 0 V675 M600 0 V675 M750 0 V675 M900 0 V675 M1050 0 V675" />
+  </g>
+  <text x="600" y="290" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="url(#title2)" text-anchor="middle">Smart Hyperlocal</text>
+  <text x="600" y="345" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="url(#title2)" text-anchor="middle">Commerce Platform</text>
+  <text x="600" y="400" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#94a3b8" text-anchor="middle">Cover image coming soon</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#e2e8f0">
+    <rect x="440" y="440" width="70" height="32" rx="16" fill="#ffffff22" />
+    <text x="475" y="461" text-anchor="middle">React</text>
+    <rect x="520" y="440" width="100" height="32" rx="16" fill="#ffffff22" />
+    <text x="570" y="461" text-anchor="middle">Node.js</text>
+    <rect x="630" y="440" width="110" height="32" rx="16" fill="#ffffff22" />
+    <text x="685" y="461" text-anchor="middle">Express</text>
+    <rect x="750" y="440" width="110" height="32" rx="16" fill="#ffffff22" />
+    <text x="805" y="461" text-anchor="middle">MongoDB</text>
+  </g>
+</svg>
