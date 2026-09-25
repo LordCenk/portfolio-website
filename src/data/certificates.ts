@@ -6,10 +6,11 @@ export type Certificate = {
   verifyUrl?: string;
 };
 
-// TODO: 4 of these 5 are still placeholder SVGs (NPTEL is now the real
-// certificate). Send the rest one at a time — a batch of images in one
-// message doesn't reach this sandbox as files, only single-image messages
-// do — and they'll get dropped into public/images/certificates/.
+// TODO: 3 of these 5 are still placeholder SVGs (NPTEL and Google/Coursera
+// are now the real certificates). Send the rest one at a time — a batch of
+// images in one message doesn't reach this sandbox as files, only
+// single-image messages do — and they'll get dropped into
+// public/images/certificates/.
 export const certificates: Certificate[] = [
   {
     title: "Data Analytics Job Simulation",
@@ -18,10 +19,11 @@ export const certificates: Certificate[] = [
     image: "/images/certificates/deloitte-data-analytics.svg",
   },
   {
-    title: "Foundations of Cybersecurity", // confirmed via resume: "Coursera: Foundations of CyberSecurity"
+    title: "Foundations of Cybersecurity",
     issuer: "Google / Coursera",
-    date: "2023",
-    image: "/images/certificates/google-coursera.svg",
+    date: "Feb 2024",
+    image: "/images/certificates/google-coursera.jpg",
+    verifyUrl: "https://coursera.org/verify/DFQ3HW8PY4FX",
   },
   {
     title: "Full Stack Web Developer", // best match from resume's certificate list — confirm this is the right one
