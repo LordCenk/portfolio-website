@@ -31,16 +31,8 @@ src/
   hooks/useTypewriter.ts
   lib/utils.ts
 public/
-  images/profile.webp        # add your real photo here (falls back to a placeholder if missing)
+  images/profile.webp        # your real photo
   images/projects/           # project screenshots
   images/certificates/       # certificate images
-  resume.pdf                 # add your resume here for the "Download Resume" button
+  resume.pdf                 # resume file for the "Download Resume" button
 ```
-
-## Content still pending
-
-- `public/images/profile.webp` — your real photo (currently a placeholder).
-- `public/resume.pdf` — resume file for the download button.
-- `public/images/projects/paycore-demo-placeholder.svg` — swap for a real PayCore demo screenshot.
-- `public/images/projects/hyperlocal-cover-placeholder.svg` — swap for a real Smart Hyperlocal Commerce Platform screenshot.
-- `src/data/certificates.ts` — two certificate titles/issuers are unconfirmed (marked `TODO`); their images in `public/images/certificates/` are placeholders pending the real files.
