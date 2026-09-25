@@ -6,11 +6,10 @@ export type Certificate = {
   verifyUrl?: string;
 };
 
-// TODO: the real certificate image files (even blurry) still need to be sent
-// one at a time — a batch of 5 images pasted in one message doesn't reach
-// this sandbox as files, only single-image messages do (confirmed by
-// testing). Once received, drop them into public/images/certificates/
-// replacing the placeholder SVGs below, same filenames.
+// TODO: 4 of these 5 are still placeholder SVGs (NPTEL is now the real
+// certificate). Send the rest one at a time — a batch of images in one
+// message doesn't reach this sandbox as files, only single-image messages
+// do — and they'll get dropped into public/images/certificates/.
 export const certificates: Certificate[] = [
   {
     title: "Data Analytics Job Simulation",
@@ -40,7 +39,7 @@ export const certificates: Certificate[] = [
     title: "Natural Language Processing",
     issuer: "NPTEL / IIT Kharagpur",
     date: "Jan – Apr 2026",
-    image: "/images/certificates/nptel-nlp.svg",
+    image: "/images/certificates/nptel-nlp.png",
     verifyUrl: "https://nptel.ac.in",
   },
 ];
